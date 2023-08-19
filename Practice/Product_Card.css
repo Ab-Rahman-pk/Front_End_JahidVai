@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Card1{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: auto;
+}
+.container{
+    margin: 10px;
+    padding: 10px;
+    background-color: aquamarine;
+    box-shadow: 5px 5px 5px black;
+}
+.Card1 .ImageCard img{
+    height: 200px;
+    width: 250px;
+}
+.Card1 .Name-Price{
+    display: flex;
+    background-color: aqua;
+    width: 250px;
+}
+.Card1 .Name-Price .NameCard{
+    text-align: start;
+    width: 70%;
+}
+.Card1 .Name-Price .PriceCard{
+    text-align: end;
+    width: 30%;
+}
+.Card1 .DescriptionCard{
+    width: 250px;
+}
+.Card1 .DescriptionCard p{
+    text-align: justify;
+    background-color: aqua;
+}
+@media only screen and (max-width: 450px) {
+    .Card1{
+        flex-direction: column;
+        
+    }
+    
+}

@@ -1,0 +1,115 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        img {
+            height: 400px;
+            width: 100%;
+        }
+/* nevigation Bar */
+        .div1 {
+            height: 100px;
+            background-color: #191313;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-size: 30px;
+            font-weight: bold;
+            background-color: red;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        .div1 a:hover{
+            background-color: white;
+            color: black;
+        }
+        .div5{
+            display: flex;
+            background-color: gray;
+    
+        }
+        .container-1{
+            background-color: gray;
+            padding: 10px;
+        }
+        .div5 div{
+            padding: 20px;
+        }.div5 .mid-div1{
+            border-right: 2px solid white;
+        }
+        .div5 .mid-div2{
+            border-right: 2px solid white;
+        }
+
+        .div5 div p{
+            text-align: justify;
+        }
+
+        
+        .div6{
+            display: flex;
+            height: 50px;
+            background-color: black;
+            justify-content: center;
+            align-items: center;
+        }
+        .div6 p{
+            color: aliceblue;
+        }
+        .div3{
+            background-color: rgb(235, 244, 244);
+        }
+        .div4{
+            background-color: rgb(214, 212, 209);
+        }
+        .container{
+            display: flex;
+        }
+        .container .div3{
+            padding: 20px;
+            width: 70%;
+        }
+        .container .div4{
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .container .div3 p{
+            text-align: justify;
+        }
+        .container .div3 h1{
+        padding-top: 20px;
+        }
+        @media only screen and (max-width:600px) {
+            .div5{
+                flex-direction: column;
+            }
+            .div5 .mid-div1{
+                border: none;
+            }
+            .div5 .mid-div2{
+                border: none;
+            }
+            .container{
+                flex-direction: column;
+            }
+            .container .div3{
+                width: 100%;
+            }
+            .container .div4{
+                width: 100%;
+            }
+            .div1 a{
+                font-size: 15px;
+            }
+        }
+    
